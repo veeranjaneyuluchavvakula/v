@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-0f88e80871fd81e91"
-    instance_type = "t2.medium"
+    ami = "ami-00ca570c1b6d79f36"
+    instance_type = "t3.micro"
     tags = {
-      Name = "vvvnaresh"
+      Name = "veera_throuht"
     }
 }
